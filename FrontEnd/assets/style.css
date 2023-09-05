@@ -95,6 +95,12 @@ nav li {
 	font-size: 1.2em;
 }
 
+/* ajout li*/
+li a {
+    text-decoration: none;
+    color: black;
+}
+
 li:hover {
 	color: #B1663C;
 }
@@ -137,7 +143,7 @@ li:hover {
 	width: 100%;
 
 }
-#contact {
+#contact, .login {
 	width: 50%;
 margin: auto;
 }
