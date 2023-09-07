@@ -1,0 +1,190 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  color: #3d3d3d;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;  
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/** end reset css**/
+
+body {
+    max-width: 1140px;
+    margin: auto;
+    font-family: "Work Sans";
+    font-size: 14px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+  .header nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  .header nav li {
+    padding: 0 10px;
+    font-size: 1.2em;
+  }
+  .header li a.active {
+    font-weight: 600;
+  }
+  .header li a:hover {
+    color: #b1663c;
+  }
+  
+  h2 {
+    font-family: "Syne";
+    font-weight: 700;
+    font-size: 30px;
+    color: #1d6154;
+  }
+  
+  h1 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Syne";
+    font-size: 22px;
+    font-weight: 800;
+    color: #b1663c;
+  }
+  
+  h1 > span {
+    font-family: "Work Sans";
+    font-size: 10px;
+    letter-spacing: 0.1em;
+  }
+  
+  section {
+    margin: 50px 0;
+  }
+  
+  footer nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2em;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  #login {
+    width: 50%;
+    margin: auto;
+  }
+  
+  #login > * {
+    text-align: center;
+  }
+  
+  #login h2 {
+    margin-bottom: 20px;
+  }
+  
+  #login form {
+    text-align: left;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #login input {
+    height: 50px;
+    font-size: 1.2em;
+    border: none;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+  }
+  
+  #login label {
+    margin: 2em 0 1em 0;
+  }
+  
+  #login textarea {
+    border: none;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+  }
+  
+  input[type=submit] {
+    font-family: "Syne";
+    font-weight: 700;
+    color: white;
+    background-color: #1d6154;
+    margin: 2em auto;
+    width: 180px;
+    text-align: center;
+    border-radius: 60px;
+    cursor: pointer;
+  }
+  
+  #login #error-message {
+    text-align: center;
+    font-weight: 500;
+    color: red;
+    margin-top: 28px;
+  }
+  
+  #login a {
+    text-align: center;
+    text-decoration: underline;
+  }/*# sourceMappingURL=login.css.map */
