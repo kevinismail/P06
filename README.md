@@ -1,5 +1,5 @@
 # P06
-Code du projet 6 d'intégrateur web.
+Code du projet 6 d'intégrateur web d'OpenClassrooms
 # Sophie Bluel
 
 La mission est de pouvoir se logger et de modifier les images du sites dynamiquement
